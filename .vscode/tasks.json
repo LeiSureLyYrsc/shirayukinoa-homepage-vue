@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "VitePress Dev Server",
+			"type": "shell",
+			"command": "npm run docs:dev",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

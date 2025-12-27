@@ -1,0 +1,21 @@
+{
+  "name": "vitepress-homepage-lsrl",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.80.0",
+    "vitepress": "^1.6.3",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}

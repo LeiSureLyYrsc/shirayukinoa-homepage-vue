@@ -1,0 +1,79 @@
+/* 实用类 */
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.slide-in {
+  animation: slideIn 0.6s ease-out;
+}
+
+/* 响应式辅助类 */
+.hidden-mobile {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hidden-desktop {
+    display: block;
+  }
+}
+
+/* 文本辅助类 */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* 间距辅助类 */
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.mt-8 { margin-top: 2rem; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-8 { margin-bottom: 2rem; }
+
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+.p-8 { padding: 2rem; }
+
+/* Flexbox 辅助类 */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

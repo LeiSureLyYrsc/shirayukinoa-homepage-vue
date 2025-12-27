@@ -1,0 +1,18 @@
+/* 导入全局样式 */
+@import './vars.css';
+@import './base.css';
+@import './components.css';
+@import './utils.css';
+
+/* 全局基础样式 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "MiSans", sans-serif;
+  font-weight: bold;
+  overflow-x: hidden;
+}
