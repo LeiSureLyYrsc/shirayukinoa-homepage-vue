@@ -238,7 +238,7 @@ defineConfig({
             url: 'https://2026.sbhfy.cn',
             icon: 'fa-solid fa-bell',
             description: '距离新年还有多长时间？',
-            external: false
+            external: true
           }
         ]
       },
