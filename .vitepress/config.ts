@@ -234,6 +234,13 @@ defineConfig({
             external: false
           },
           {
+            name: 'Murasame 分享站',
+            url: 'https://share.shirayukinoa.top',
+            icon: 'fa-solid fa-folder-open',
+            description: 'Murasame Sharepoint',
+            external: false
+          },
+          {
             name: '2026 新年倒计时',
             url: 'https://2026.sbhfy.cn',
             icon: 'fa-solid fa-bell',
